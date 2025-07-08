@@ -1,7 +1,0 @@
-numpy==1.20.0
-opencv-python==4.11.0.86
-pyautogui==0.9.54
-keyboard==0.13.5
-pillow==11.2.1
-pytesseract==0.3.13
-psutil==7.0.0
