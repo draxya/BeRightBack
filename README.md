@@ -66,6 +66,25 @@ pip install customtkinter pillow requests psutil urllib3
 python berightback.py
 ```
 
+## ⚙️ v3.0 Güncelleme Notları
+[TR]
++ Artık program tamamen LoL Local API kullanıyor,
++ Zamanlayıcı ile otomasyonlu maç başlatma seçeneği eklendi,
++ Maç bulunduğunda yanlış yere tıklama (ya da hiç tıklayamama) gibi hatalar API kullanımı sayesinde sıfıra indirildi,
++ Arayüz tasarımı düz windows form formatından, modern ve göze hitap eden bir tasarım haline getirildi.
+- OCR Tesserract ile metin tanıma tamamen kaldırıldı,
+- Görüntü işleme tekniği tamamen kaldırıldı,
+- Sistemi gereksiz zorlayan işlemler kaldırıldı, program baştan yazıldı.
+
+[EN]
++ Now the program uses completely LoL Local API,
++ Added the option to start matches with a timer set by user which is completely automated afterwards,
++ Errors such as clicking on the wrong place (or not being able to click at all) when a match is found have been reduced to zero thanks to the use of the API,
++ The interface design has been transformed from a plain windows form format into a modern and eye-catching design.
+- Text recognition with OCR Tesserract has been completely removed,
+- Image processing technique has been completely removed,
+- Processes that put unnecessary strain on the system were removed and the program was rewritten.
+
 ## 🎯 Kullanım Kılavuzu
 
 ### **1. Otomatik Maç Kabul**
